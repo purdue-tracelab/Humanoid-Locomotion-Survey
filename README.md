@@ -1,5 +1,6 @@
 # Humanoid-Locomotion-Survey
 This is a repo to organize the papers we cited in our survey paper.
+This repo is still under development.
 
 We categorize the papers into the following groups.
 - [Other survey paper]

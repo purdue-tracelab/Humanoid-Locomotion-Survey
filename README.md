@@ -61,6 +61,9 @@ Humanoid control has progressed from classical methods, including real-time feed
 It is now entering an emerging era driven by generative AI. 
 Each paradigm expands the scope of reasoning from reduced-order models to simulated and real-world physics and increasingly integrates insights from multiple disciplines, including biomechanics, control theory, machine learning, computer graphics, natural language processing, and computer vision. 
 This progression has enabled a transition from stable walking on constrained terrains to agile locomotion and, most recently, to multi-task loco-manipulation in unstructured environments.
+([Honda ASIMO](https://link.springer.com/rwe/10.1007/978-94-007-6046-2_9/figures/16), 
+[Unitree G1](https://www.unitree.com/cn/g1), 
+[Boston Dynamics Atlas](https://bostondynamics.com/blog/large-behavior-models-atlas-find-new-footing/))
 
 ## Fig. 2, Spectrum of modeling approaches
 

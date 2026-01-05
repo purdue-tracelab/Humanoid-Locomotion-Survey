@@ -1,5 +1,5 @@
 # Humanoid-Locomotion-Survey
-This is a repo to organize the papers we cited in our survey paper, entitled ''Evolution of Humanoid Locomotion Control'' and see the PDF in this repo.
+This is a repo to organize the papers we cited in our survey paper, entitled ''Evolution of Humanoid Locomotion Control'' and see the [PDF](https://drive.google.com/file/d/1r5kzNBS6DCyOSys5YwLDIWL7AKWnm4-M/view?usp=sharing) in this repo.
 This repo is still under development.
 
 ## Abstract

@@ -1,6 +1,11 @@
-# Humanoid-Locomotion-Survey
-This is a repo to organize the papers we cited in our survey paper, entitled ''Evolution of Humanoid Locomotion Control'' and see the PDF in this repo.
-This repo is still under development.
+# Evolution of Humanoid Locomotion Control
+
+Companion repository for our survey in Science Robotics (2026):
+Yan Gu*, Guanya Shi*, Fan Shi*, I-Chia Chang, Yen-Jen Wang, Qilong Cheng, Zachary Olkin, Ivan Lopez-Sanchez, Yunchu Feng, Jian Zhang, Aaron D. Ames, Hao Su**, Koushil Sreenath** (*equal contribution) (** corresponding authors)
+
+Paper: https://www.science.org/doi/10.1126/scirobotics.aed3973
+
+This repo organizes the papers cited in the survey by section, along with the figures and a getting-started guide. The classical and simulation-based learning sections are in place; the remaining paper lists are being added over the next few weeks.
 
 ## Abstract
 
@@ -38,6 +43,9 @@ This repo is organized as below:
     + From single-task to multi-task policy
     + From locomotion to loco-manipulation and interaction
 * Getting started in humanoid locomotion control
+    + Hardware
+    + Open-source software: control stacks, simulators, and data
+    + Core references
 
 
 <!-- We categorize the papers into the following groups.
@@ -207,57 +215,139 @@ These shifts point toward unified generative approaches that integrate perceptio
 ## Learning from real-world human and robot data
 
 ### Learning from real-world human data
-(TBD)
+(Coming soon)
+<!-- - AMASS, AMASS: Archive of Motion Capture as Surface Shapes, [paper link](https://arxiv.org/abs/1904.03278)
+- GAIL, Learning human behaviors from motion capture by adversarial imitation, [paper link](https://arxiv.org/abs/1707.02201)
+- AMP, AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control, [paper link](https://arxiv.org/abs/2104.02180)
+- HumanMimic, HumanMimic: Learning Natural Locomotion and Transitions for Humanoid Robot via Wasserstein Adversarial Imitation, [paper link](https://arxiv.org/abs/2309.14225)
+- DeepMimic, DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills, [paper link](https://arxiv.org/abs/1804.02717)
+- H2O, Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation, [paper link](https://arxiv.org/abs/2403.04436)
+- OmniH2O, OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning, [paper link](https://arxiv.org/abs/2406.08858)
+- HumanPlus, HumanPlus: Humanoid Shadowing and Imitation from Humans, [paper link](https://arxiv.org/abs/2406.10454)
+- ExBody, Expressive whole-body control for humanoid robots, [paper link](https://arxiv.org/abs/2402.16796)
+- GMT, GMT: General Motion Tracking for Humanoid Whole-Body Control, [paper link](https://arxiv.org/abs/2506.14770)
+- OmniRetarget, OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction, [paper link](https://arxiv.org/abs/2509.26633)
+- BeyondMimic, BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion, [paper link](https://arxiv.org/abs/2508.08241) -->
 
 
 ### System identification and actuator model learning from real-world data
-(TBD)
+(Coming soon)
+<!-- - Sim-to-Real Transfer for Biped Locomotion, [paper link](https://arxiv.org/abs/1903.01390)
+- SPI-Active, Sampling-Based System Identification with Active Exploration for Legged Robot Sim2Real Learning, [paper link](https://arxiv.org/abs/2505.14266)
+- ANYmal parkour, ANYmal parkour: Learning agile navigation for quadrupedal robots, [paper link](https://www.science.org/doi/10.1126/scirobotics.adi7566) -->
 
 
 ### Learning robot dynamics from real-world data
-(TBD)
+(Coming soon)
+<!-- - ASAP, ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills, [paper link](https://arxiv.org/abs/2502.01143)
+- BumbleBee, From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots, [paper link](https://arxiv.org/abs/2506.12779)
+- Bridging the Sim-to-Real Gap for Athletic Loco-Manipulation, [paper link](https://arxiv.org/abs/2502.10894)
+- Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation, [paper link](https://arxiv.org/abs/2504.19322) -->
 
 
 
 # Emerging frontiers
 
 ## From discriminative to generative models
-(TBD)
+(Coming soon)
+<!-- - GAIL, Generative Adversarial Imitation Learning, [paper link](https://arxiv.org/abs/1606.03476)
+- Decision Transformer, Decision Transformer: Reinforcement Learning via Sequence Modeling, [paper link](https://arxiv.org/abs/2106.01345)
+- Planning with Diffusion, Planning with Diffusion for Flexible Behavior Synthesis, [paper link](https://arxiv.org/abs/2205.09991)
+- Diffusion Policy, Diffusion Policy: Visuomotor Policy Learning via Action Diffusion, [paper link](https://arxiv.org/abs/2303.04137)
+- Human Motion Diffusion Model, [paper link](https://arxiv.org/abs/2209.14916)
+- PhysDiff, PhysDiff: Physics-Guided Human Motion Diffusion Model, [paper link](https://arxiv.org/abs/2212.02500)
+- Humanoid locomotion as next token prediction, [paper link](https://arxiv.org/abs/2402.19469) -->
 
 ## From uni-modal to multi-modal learning
-(TBD)
+(Coming soon)
+<!-- - LocoTransformer, Learning Vision-Guided Quadrupedal Locomotion End-to-End with Cross-Modal Transformers, [paper link](https://arxiv.org/abs/2107.03996)
+- VB-Com, VB-Com: Learning vision-blind composite humanoid locomotion against deficient perception, [paper link](https://arxiv.org/abs/2502.14814)
+- Attention-based map encoding for learning generalized legged locomotion, [paper link](https://www.science.org/doi/10.1126/scirobotics.adv3604)
+- RT-2, RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control, [paper link](https://arxiv.org/abs/2307.15818)
+- RT-X, Open X-Embodiment: Robotic Learning Datasets and RT-X Models, [paper link](https://arxiv.org/abs/2310.08864)
+- π0, π0: A Vision-Language-Action Flow Model for General Robot Control, [paper link](https://arxiv.org/abs/2410.24164)
+- Gemini Robotics, Gemini Robotics: Bringing AI into the Physical World, [paper link](https://arxiv.org/abs/2503.20020)
+- Helix, Helix: A Vision-Language-Action Model for Generalist Humanoid Control, [paper link](https://www.figure.ai/news/helix)
+- GR00T N1, GR00T N1: An Open Foundation Model for Generalist Humanoid Robots, [paper link](https://arxiv.org/abs/2503.14734) -->
 
 ## From single-task to multi-task policy
-(TBD)
+(Coming soon)
+<!-- - MAML, Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, [paper link](https://arxiv.org/abs/1703.03400)
+- PEARL, Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables, [paper link](https://arxiv.org/abs/1903.08254)
+- Distral, Distral: Robust Multitask Reinforcement Learning, [paper link](https://arxiv.org/abs/1707.04175)
+- Neural probabilistic motor primitives for humanoid control, [paper link](https://arxiv.org/abs/1811.11711)
+- BridgeData V2, BridgeData V2: A Dataset for Robot Learning at Scale, [paper link](https://arxiv.org/abs/2308.12952)
+- Meta-World, Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning, [paper link](https://arxiv.org/abs/1910.10897)
+- TokenHSI, TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization, [paper link](https://arxiv.org/abs/2503.19901) -->
 
 ## From locomotion to loco-manipulation and interaction
-(TBD)
+(Coming soon)
+<!-- - RT-1, RT-1: Robotics Transformer for Real-World Control at Scale, [paper link](https://arxiv.org/abs/2212.06817)
+- Learning dexterous in-hand manipulation, [paper link](https://arxiv.org/abs/1808.00177)
+- Opt2Skill, Opt2Skill: Imitating Dynamically-feasible Whole-Body Trajectories for Versatile Humanoid Loco-Manipulation, [paper link](https://arxiv.org/abs/2409.20514)
+- HDMI, HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos, [paper link](https://arxiv.org/abs/2509.16757)
+- ResMimic, ResMimic: From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning, [paper link](https://arxiv.org/abs/2510.05070)
+- Physically Consistent Humanoid Loco-Manipulation using Latent Diffusion Models, [paper link](https://arxiv.org/abs/2504.16843)
+- Task and Motion Planning for Humanoid Loco-Manipulation, [paper link](https://arxiv.org/abs/2508.14099)
+- FALCON, FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation, [paper link](https://arxiv.org/abs/2505.06776)
+- ULC, ULC: A Unified and Fine-Grained Controller for Humanoid Loco-Manipulation, [paper link](https://arxiv.org/abs/2507.06905)
+- SONIC, SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control, [paper link](https://arxiv.org/abs/2511.07820) -->
 
 # Getting started in humanoid locomotion control
-(TBD)
+
+## Hardware
+(Coming soon)
+<!-- - Berkeley Humanoid, Berkeley Humanoid: A Research Platform for Learning-based Control, [paper link](https://arxiv.org/abs/2407.21781)
+- Berkeley Humanoid Lite, Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot, [paper link](https://arxiv.org/abs/2504.17249)
+- ToddlerBot, ToddlerBot: Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation, [paper link](https://arxiv.org/abs/2502.00893) -->
+
+## Open-source software: control stacks, simulators, and data
+(Coming soon)
+<!-- - MIT Cheetah Software, [repo link](https://github.com/mit-biomimetics/Cheetah-Software)
+- OpenLoong, OpenLoong-DynamicsControl: Motion control framework of humanoid robot based on MPC and WBC, [repo link](https://github.com/loongOpen/Openloong-dyn-control)
+- CasADi, CasADi: A software framework for nonlinear optimization and optimal control, [paper link](https://link.springer.com/article/10.1007/s12532-018-0139-4)
+- Acados, acados: A modular open-source framework for fast embedded optimal control, [paper link](https://arxiv.org/abs/1910.13753)
+- OCS2, OCS2: An open source library for Optimal Control of Switched Systems, [repo link](https://github.com/leggedrobotics/ocs2)
+- Judo, Judo: A User-Friendly Open-Source Package for Sampling-Based Model Predictive Control, [paper link](https://arxiv.org/abs/2506.17184)
+- MJLab, MJLab: Isaac Lab API, powered by MuJoCo-Warp, [repo link](https://github.com/mujocolab/mjlab)
+- Newton, Newton: GPU-Accelerated Physics Simulation Engine for Robotics, [repo link](https://github.com/newton-physics/newton)
+- Genesis, Genesis: A Generative and Universal Physics Engine for Robotics and Beyond, [repo link](https://github.com/Genesis-Embodied-AI/Genesis) -->
+
+## Core references
+(Coming soon)
+<!-- - Robot Modeling and Control, [book link](https://www.wiley.com/en-us/Robot+Modeling+and+Control,+2nd+Edition-p-9781119524045)
+- Reinforcement Learning: An Introduction, [book link](http://incompleteideas.net/book/the-book.html)
+- DreamerV3, Mastering diverse control tasks through world models, [paper link](https://www.nature.com/articles/s41586-025-08744-2)
+- Deep Learning, [book link](https://www.deeplearningbook.org/)
+- Introduction to Variational Autoencoders, [paper link](https://arxiv.org/abs/1906.02691)
+- The Principles of Diffusion Models, [paper link](https://arxiv.org/abs/2510.21890) -->
 
 
-
+<!-- 
 # ToDo
 1. [done] Re-organize the repo based on the structure of our paper.
 2. [done] Add the figures and table to this README.
-3. Add papers we cited in Section 2 (Classical) to the corresponding part of README
-4. Add papers we cited in Section 3 (Learning) to the corresponding part of README
-5. Add papers we cited in Section 4 (Emerging) to the corresponding part of README
-6. Add papers we cited in Section 5 (Getting start) to the corresponding part of README
+3. [done] Add papers we cited in Section 2 (Classical) to the corresponding part of README
+4. [done] Add papers we cited in Section 3 (Learning) to the corresponding part of README
+5. [done] Add papers we cited in Section 4 (Emerging) to the corresponding part of README
+6. [done] Add papers we cited in Section 5 (Getting start) to the corresponding part of README -->
 
-## Format
+<!-- ## Format
 - Paper name, [Paper link]()
 - Short name, Paper name, [Paper link]()
-- Short name, Paper name, Date(?), [Paper link]()
+- Short name, Paper name, Date(?), [Paper link]() -->
 
 
 # BibTex
 If you find our survey paper helpful, please kindly consider citing us:
 ```
-@article{Humanoid_Locomotion_Survey,
-      author = {Yan Gu, Guanya Shi, Fan Shi, I-Chia Chang, Yen-Jen Wang, Qilong Cheng, Zachary Olkin, Ivan Lopez-Sanchez, Yunchu Feng, Jian Zhang, Aaron D. Ames, Hao Su, and Koushil Sreenath},
-      title = {Evolution of Humanoid Locomotion Control},
-      year = {2025},
+@article{gu2026evolution,
+  author = {Gu, Yan and Shi, Guanya and Shi, Fan and Chang, I-Chia and Wang, Yen-Jen and Cheng, Qilong and Olkin, Zachary and Lopez-Sanchez, Ivan and Feng, Yunchu and Zhang, Jian and Ames, Aaron D. and Su, Hao and Sreenath, Koushil},
+  title  = {Evolution of Humanoid Locomotion Control},
+  journal = {Science Robotics},
+  year   = {2026},
+  volume = {11},
+  number = {117},
+  doi    = {10.1126/scirobotics.aed397}
 }
 ```

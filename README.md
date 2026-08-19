@@ -14,7 +14,8 @@ This repo is organized as below:
     + Fig. 1, Evolution of humanoid locomotion control paradigms
     + Fig. 2, Spectrum of modeling approaches
     + Fig. 3, Unified view of humanoid locomotion control paradigms
-    + Fig. 4, Emerging research shifts
+    + Fig. 4, Comparison of classical and learning-based control
+    + Fig. 5, Emerging research shifts
     + Other survey papers
 * Modeling and classical control
     + Modeling
@@ -62,6 +63,8 @@ It is now entering an emerging era driven by generative AI.
 Each paradigm expands the scope of reasoning from reduced-order models to simulated and real-world physics and increasingly integrates insights from multiple disciplines, including biomechanics, control theory, machine learning, computer graphics, natural language processing, and computer vision. 
 This progression has enabled a transition from stable walking on constrained terrains to agile locomotion and, most recently, to multi-task loco-manipulation in unstructured environments.
 
+Images from Unitree (G1 running and loco-manipulation tasks) and Vazquez88 (human motion capture)
+
 ## Fig. 2, Spectrum of modeling approaches
 
 ![fig2](fig/fig2.png)
@@ -96,9 +99,15 @@ The diagram also highlights two levels of reasoning: System 1, governing fast, r
 This organization suggests a future integration of rapid feedback and high-level decision-making in humanoid control.
 
 
-## Fig. 4, Emerging research shifts
-
+## Fig. 4, 
 ![fig4](fig/fig4.png)
+
+Comparison of classical and learning-based control. (A) Classical control typically uses an explicit state estimator, analytical model, and online controller. (B) Reinforcement learning, by contrast, learns a policy through offline interaction with a physics-based simulator and reward-driven optimization. The figure highlights differences in state estimation, model usage, and optimization timing across the two paradigms.
+
+
+## Fig. 5, Emerging research shifts
+
+![fig5](fig/fig5.png)
 
 Emerging research shifts in humanoid control across five dimensions.
 Current trends reflect a transition from discriminative to generative models, uni-modal to multi-modal sensing, single-task to multi-task learning, locomotion to loco-manipulation, and offline training to test-time adaptation.

@@ -7,6 +7,21 @@ Paper: https://www.science.org/doi/10.1126/scirobotics.aed3973
 
 This repo organizes the papers cited in the survey by section, along with the figures and a getting-started guide. The classical and simulation-based learning sections are in place; the remaining paper lists are being added over the next few weeks.
 
+# BibTex
+If you find our survey paper helpful, please kindly consider citing us:
+```
+@article{gu2026evolution,
+  author = {Gu, Yan and Shi, Guanya and Shi, Fan and Chang, I-Chia and Wang, Yen-Jen and Cheng, Qilong and Olkin, Zachary and Lopez-Sanchez, Ivan and Feng, Yunchu and Zhang, Jian and Ames, Aaron D. and Su, Hao and Sreenath, Koushil},
+  title  = {Evolution of Humanoid Locomotion Control},
+  journal = {Science Robotics},
+  year   = {2026},
+  volume = {11},
+  number = {117},
+  doi    = {10.1126/scirobotics.aed397}
+}
+```
+
+
 ## Abstract
 
 Humanoid robots stand at the forefront of robotics, aiming to capture the agility, robustness, and expressivity of human movement within an anthropomorphic form. The locomotion control of humanoids has evolved from classical model-based methods to reinforcement learning powered by large-scale simulation, and now to generative models that produce adaptive, whole-body behaviors, propelling humanoids toward operation in real-world environments. This survey positions humanoid control at a turning point, converging toward a unified paradigm of physics-guided generative intelligence that integrates optimization, learning, and predictive reasoning. We identify three core principles linking these paradigms: physics-based modeling, constrained decision making, and adaptation to uncertainty. Building on these connections, we provide recommendations for researchers and outline open challenges in safety, accessibility, and human-level capability. These directions represent a transformation from engineered stability to intelligent autonomy, laying the groundwork for humanoid generalists capable of operating safely, collaborating naturally, and extending human capability in the open world.
@@ -338,16 +353,3 @@ These shifts point toward unified generative approaches that integrate perceptio
 - Short name, Paper name, Date(?), [Paper link]() -->
 
 
-# BibTex
-If you find our survey paper helpful, please kindly consider citing us:
-```
-@article{gu2026evolution,
-  author = {Gu, Yan and Shi, Guanya and Shi, Fan and Chang, I-Chia and Wang, Yen-Jen and Cheng, Qilong and Olkin, Zachary and Lopez-Sanchez, Ivan and Feng, Yunchu and Zhang, Jian and Ames, Aaron D. and Su, Hao and Sreenath, Koushil},
-  title  = {Evolution of Humanoid Locomotion Control},
-  journal = {Science Robotics},
-  year   = {2026},
-  volume = {11},
-  number = {117},
-  doi    = {10.1126/scirobotics.aed397}
-}
-```

@@ -1,11 +1,16 @@
 # Evolution of Humanoid Locomotion Control
 
-Companion repository for our survey in Science Robotics (2026):
-Yan Gu*, Guanya Shi*, Fan Shi*, I-Chia Chang, Yen-Jen Wang, Qilong Cheng, Zachary Olkin, Ivan Lopez-Sanchez, Yunchu Feng, Jian Zhang, Aaron D. Ames, Hao Su**, Koushil Sreenath** (*equal contribution) (** corresponding authors)
+Companion repository for our 2026 *Science Robotics* survey, [**Evolution of Humanoid Locomotion Control**](https://www.science.org/doi/10.1126/scirobotics.aed3973).
 
-Paper: https://www.science.org/doi/10.1126/scirobotics.aed3973
+[Yan Gu](https://www.thetracelab.com/ygu.html)*, [Guanya Shi](https://www.gshi.me/)*, [Fan Shi](https://fanshi14.github.io/me/)*, [I-Chia Chang](https://www.thetracelab.com/icchang.html), [Yen-Jen Wang](https://yenjen.me/), [Qilong Cheng](https://thejerrycheng.github.io/), [Zachary Olkin](https://www.zacholkin.com/), [Ivan Lopez-Sanchez](https://www.researchgate.net/profile/Ivan-Lopez-Sanchez), [Yunchu Feng](https://yfeng0206.github.io/portfolio/), [Jian Zhang](https://www.linkedin.com/in/jianzhangpurdue), [Aaron D. Ames](https://www.bipedalrobotics.com/), [Hao Su](https://haosu-robotics.github.io/)†, [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/)†
 
-This repo organizes the papers cited in the survey by section, along with the figures and a getting-started guide. The classical and simulation-based learning sections are in place; the remaining paper lists are being added over the next few weeks.
+* Equal contribution. † Corresponding authors.
+
+**Paper:** [Science Robotics](https://www.science.org/doi/10.1126/scirobotics.aed3973)
+
+This repository organizes the papers cited in the survey by section and provides the survey figures together with a getting-started guide for researchers interested in humanoid locomotion control.
+
+The paper lists for the **classical control** and **simulation-based learning** sections are currently available. References for the remaining sections are being added progressively.
 
 # BibTex
 If you find our survey paper helpful, please kindly consider citing us:

@@ -2,9 +2,9 @@
 
 Companion repository for our 2026 *Science Robotics* survey, [**Evolution of Humanoid Locomotion Control**](https://www.science.org/doi/10.1126/scirobotics.aed3973).
 
-[Yan Gu](https://www.thetracelab.com/ygu.html)*, [Guanya Shi](https://www.gshi.me/)*, [Fan Shi](https://fanshi14.github.io/me/)*, [I-Chia Chang](https://www.thetracelab.com/icchang.html), [Yen-Jen Wang](https://yenjen.me/), [Qilong Cheng](https://thejerrycheng.github.io/), [Zachary Olkin](https://www.zacholkin.com/), [Ivan Lopez-Sanchez](https://www.researchgate.net/profile/Ivan-Lopez-Sanchez), [Yunchu Feng](https://yfeng0206.github.io/portfolio/), [Jian Zhang](https://www.linkedin.com/in/jianzhangpurdue), [Aaron D. Ames](https://www.bipedalrobotics.com/), [Hao Su](https://haosu-robotics.github.io/)†, [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/)†
+[Yan Gu](https://www.thetracelab.com/ygu.html)<sup>*</sup>, [Guanya Shi](https://www.gshi.me/)<sup>*</sup>, [Fan Shi](https://fanshi14.github.io/me/)<sup>*</sup>, [I-Chia Chang](https://www.thetracelab.com/icchang.html), [Yen-Jen Wang](https://yenjen.me/), [Qilong Cheng](https://thejerrycheng.github.io/), [Zachary Olkin](https://www.zacholkin.com/), [Ivan Lopez-Sanchez](https://www.researchgate.net/profile/Ivan-Lopez-Sanchez), [Yunchu Feng](https://yfeng0206.github.io/portfolio/), [Jian Zhang](https://www.linkedin.com/in/jianzhangpurdue), [Aaron D. Ames](https://www.bipedalrobotics.com/), [Hao Su](https://haosu-robotics.github.io/)<sup>†</sup>, [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/)<sup>†</sup>
 
-* Equal contribution. † Corresponding authors.
+<sup>*</sup> Equal contribution. <sup>†</sup> Corresponding authors.
 
 **Paper:** [Science Robotics](https://www.science.org/doi/10.1126/scirobotics.aed3973)
 
